@@ -1,0 +1,1 @@
+(fn() -> impl nom::Parser<_, Output = _, Error = _> {nom::character::digit1::<_, _>}, for<'a> fn(&'a str) -> std::result::Result<(&'a str, std::option::Option<&'a str>), nom::Err<nom::error::Error<&'a str>>> {parsing::expression_parsing::logic_gate}, fn() -> impl nom::Parser<_, Output = _, Error = _> {nom::character::digit1::<_, _>})

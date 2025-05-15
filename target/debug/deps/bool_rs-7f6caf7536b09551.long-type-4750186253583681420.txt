@@ -1,0 +1,2 @@
+impl nom::internal::Parser<&str, Output = (&str, core::option::Option<&str>, &str), Error = nom::error::Error<&str>>
+impl nom::Parser<&str, Output = (&str, std::option::Option<&str>, &str), Error = nom::error::Error<&str>>
